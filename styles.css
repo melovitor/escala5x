@@ -246,7 +246,7 @@ footer h1 {
 @media (max-width: 767px) {
    
     header text, button{
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .banner-img img,
@@ -258,9 +258,12 @@ footer h1 {
     .list {
         padding: 16px;
     }
+
     .list li{
         font-size: 80%;
     }
+
+    
 
     .text{
         width: 85%;
