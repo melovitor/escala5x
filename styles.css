@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(to right, rgb(255, 215, 2 ) , rgb(250, 72, 0 ));
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header text {
+    color: black;    
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.sesson {
+    width: 100%;
+    background-image: url('assets/Background.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: contain;
+}
+
+.banner-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+button {
+    background: linear-gradient(to right, rgb(255, 215, 2 ) , rgb(250, 72, 0 ));
+    padding: 30px 60px;
+    font-size: 24px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgba(255,165,0 , .9);
+}
+button:active{
+    background-color: rgba(255,165,0 , .7);
+}
+
+.banner-gymmen {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-gymmen text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.banner-gymmen span {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.list text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.list {
+    color: white;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+li::before {
+    content: "•";
+    color: rgba(255,165,0);
+    margin-right: 2px;
+}
+
+li {
+    margin-bottom: 16px;
+    text-align: start;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.text text,
+.video-session-two text {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.text span,
+.video-session-two span {
+    color: orange;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.text h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.video-session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.video {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.video img {
+    width: 300px;
+}
+
+.video-session-two {
+   background-image: url('assets/Background.png');
+   background-size: cover;
+   width: 100%;
+}
+
+.video-session-two h1,
+.mentor h2 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.video-session-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-session-two text {
+    margin-top: 32px;
+    padding: 0 350px;
+}
+
+.lines {
+    padding: 32px 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.your-mentor{
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.your-mentor h1{
+    color: orange;
+    font-weight: bold;
+}
+.your-mentor h2{
+    text-align: justify;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+.your-mentor button{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.mentor {
+    max-width: 600px;
+    text-align: end;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(25,25,25);
+    width: 100%;
+    padding: 64px;
+}
+
+footer h1 {
+    margin-top: 32px;
+    font-size: 16px;
+    width: 500px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+   
+    header text, button{
+        font-size: 80%;
+    }
+
+    .banner-img img,
+    .banner-gymmen img
+    {
+        width: 70%;
+    }
+
+    .list {
+        padding: 16px;
+    }
+    .list li{
+        font-size: 80%;
+    }
+
+    .text{
+        width: 85%;
+    }
+
+    .text text, .text span {
+        font-size: 24px;
+    }
+
+    .text  h2 {
+        font-size: 80%;
+    }
+    
+    .video {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .video-session-two text, .video-session-two span {
+        width: 450px;
+        font-size: 24px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .lines {
+        padding: 32px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .video-session-two h1 {
+        font-size: 80%;
+    }
+    .your-mentor  {
+        flex-direction: column;
+    }
+
+    .mentor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 16px;
+    }
+}
