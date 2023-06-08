@@ -32,7 +32,6 @@ header text {
 
 .sesson {
     width: 100%;
-    background-image: url('assets/Background.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +54,7 @@ button {
     border-radius: 20px;
     border-style: none;
     font-weight: bold;
+    color: black;
 }
 
 button:hover{
@@ -246,7 +246,7 @@ footer h1 {
 @media (max-width: 767px) {
    
     header text, button{
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .banner-img img,
