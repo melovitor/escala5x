@@ -271,12 +271,12 @@ footer h1 {
     }    
 
     .text{
-        width: 10%;
+        width: 80%;
         padding: 16px;
     }
-
+    
     .text text, .text span {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .text  h2 {
@@ -288,12 +288,13 @@ footer h1 {
         grid-template-columns: 1fr;
         gap: 16px;
         margin-bottom: 32px;
+        margin-top: -64px;
     }
 
     .video-session-two text, .video-session-two span {
-        width: 450px;
-        font-size: 24px;
-        padding: 0;
+        width: 400px;
+        font-size: 18px;
+        padding: 16px;
         text-align: center;
     }
 
@@ -318,5 +319,14 @@ footer h1 {
         justify-content: center;
         flex-direction: column;
         padding: 16px;
+    }
+
+    footer h1 {
+        width: 100%;
+        margin-top: 32px;
+        font-size: 12px;
+        padding: 16px;
+        color: white;
+        text-align: center;
     }
 }
