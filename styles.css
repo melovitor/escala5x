@@ -243,12 +243,15 @@ footer h1 {
     text-align: center;
 }
 
-@media (max-width: 767px) {
-   
-    header text, button{
+@media (max-width: 767px) {   
+    header text{
         font-size: 60%;
     }
 
+    button {
+        font-size: 95%;
+        padding: 30px 40px;
+    }
     .banner-img img,
     .banner-gymmen img
     {
@@ -259,14 +262,17 @@ footer h1 {
         padding: 16px;
     }
 
-    .list li{
-        font-size: 80%;
+    .banner-gymmen text{
+        text-align: center;
     }
 
-    
+    .list li{
+        font-size: 80%;
+    }    
 
     .text{
-        width: 85%;
+        width: 10%;
+        padding: 16px;
     }
 
     .text text, .text span {
