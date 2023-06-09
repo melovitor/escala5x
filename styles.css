@@ -243,6 +243,14 @@ footer h1 {
     text-align: center;
 }
 
+.icon {
+    width: 30px;
+}
+
+.icons {
+    margin-top: 16px;
+}
+
 @media (max-width: 767px) {   
     header text{
         font-size: 60%;
