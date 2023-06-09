@@ -166,6 +166,22 @@ li {
     width: 300px;
 }
 
+iframe {
+    position: absolute; 
+    width: 87%; 
+    height: 85%;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+.video-frame {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .video-session-two {
    background-image: url('assets/Background.png');
    background-size: cover;
