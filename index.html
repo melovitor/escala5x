@@ -18,7 +18,7 @@
         <div class="banner-img">
             <img src="assets/banner1.png" alt="" srcset="">
         </div> 
-        <a href="https://www.google.com.br/">
+        <a href="#footer" onclick="scrollToFooter()">
             <button>QUERO ESCALAR A MINHA EMPRESA</button>
         </a>
     </div>    
@@ -99,7 +99,7 @@
         </div>
         <img src="assets/mentor.png" alt="" srcset="">        
     </div>
-    <footer>
+    <footer id="footer">
         <img src="assets/footer.png" alt="" srcset="">
         <h1>Preencha o formulário abaixo para participar do programa Acelerador Empresarial!</h1>
         <div class="icons">
@@ -112,4 +112,11 @@
     
 
 </body>
+<script>
+    function scrollToFooter() {
+        const footer = document.getElementById("footer");
+        footer.scrollIntoView({ behavior: "smooth" });
+    }
+</script>
 </html>
+
